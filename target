@@ -1,0 +1,5 @@
+target/classes/.gitkeep
+target/maven-archiver/.gitkeep
+target/maven-status/.gitkeep
+target/surefire-reports/.gitkeep
+target/test-classes/.gitkeep
