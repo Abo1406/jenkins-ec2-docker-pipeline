@@ -24,7 +24,7 @@ pipeline {
                 script {
                     def dockerCmd = 'docker run -p 3080:3080 -d abmrv/demo-app'
                     sshagent(['ec2-server-key']) {
-                       sh "ssh -o StrictHostKeyChecking=no ec2-user@3.72.88.65 ${dockerCmd}"
+                       sh "ssh -o StrictHostKeyChecking=no ec2-user@3.120.133.194 ${dockerCmd}"
                     }
                 }
             }
